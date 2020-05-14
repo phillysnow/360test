@@ -60,13 +60,6 @@ export default {
     ** Build configuration
     */
     build: {
-        babel: {
-            sourceType: "unambiguous"
-        },
-
-        /*
-        ** You can extend webpack config here
-        */
         extend(config) {
             // to transform link with <nuxt-link> for the htmlSerializer
             config.resolve.alias.vue = "vue/dist/vue.common";
