@@ -60,7 +60,7 @@ export default {
     ** Build configuration
     */
     build: {
-        extend(config) {
+        extend(config, ctx) {
             // to transform link with <nuxt-link> for the htmlSerializer
             config.resolve.alias.vue = "vue/dist/vue.common";
         }
