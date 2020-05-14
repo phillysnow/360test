@@ -1,0 +1,93 @@
+{
+    "Main" : {
+        "input_placeholder" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Input Placeholder",
+                "placeholder" : "Mail CTA placeholder"
+            }
+        },
+        "button_label" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Button Label",
+                "placeholder" : "Mail CTA button label"
+            }
+        },
+        "body" : {
+            "type" : "Slices",
+            "fieldset" : "Slice zone",
+            "config" : {
+                "labels" : {
+                    "menu_item" : [ ],
+                    "submenu" : [ ]
+                },
+                "choices" : {
+                    "menu_item" : {
+                        "type" : "Slice",
+                        "fieldset" : "Link",
+                        "description" : "Menu item",
+                        "icon" : "insert_link",
+                        "display" : "list",
+                        "non-repeat" : {
+                            "label" : {
+                                "type" : "Text",
+                                "config" : {
+                                    "label" : "Label",
+                                    "placeholder" : "Navbar label"
+                                }
+                            },
+                            "link" : {
+                                "type" : "Link",
+                                "config" : {
+                                    "label" : "Link",
+                                    "placeholder" : "Menu item link"
+                                }
+                            }
+                        },
+                        "repeat" : { }
+                    },
+                    "submenu" : {
+                        "type" : "Slice",
+                        "fieldset" : "Submenu",
+                        "description" : "Menu item",
+                        "icon" : "menu",
+                        "display" : "list",
+                        "non-repeat" : {
+                            "label" : {
+                                "type" : "Text",
+                                "config" : {
+                                    "label" : "Label",
+                                    "placeholder" : "Navbar label"
+                                }
+                            }
+                        },
+                        "repeat" : {
+                            "title" : {
+                                "type" : "Text",
+                                "config" : {
+                                    "label" : "Title",
+                                    "placeholder" : "Submenu item title"
+                                }
+                            },
+                            "subtitle" : {
+                                "type" : "Text",
+                                "config" : {
+                                    "label" : "Subtitle",
+                                    "placeholder" : "Submenu item subtitle"
+                                }
+                            },
+                            "link" : {
+                                "type" : "Link",
+                                "config" : {
+                                    "label" : "Link",
+                                    "placeholder" : "Submenu item link"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

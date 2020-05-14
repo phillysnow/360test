@@ -1,0 +1,127 @@
+@import "variables";
+
+.btn360 {
+    box-sizing: border-box;
+    min-width: 208px;
+
+    padding: 16px 40px;
+
+    color: $color-grey-level-8;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: all 0.3s;
+
+    &.small {
+        min-width: 75px;
+        padding: 8px 16px;
+
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &.default:not(.outline) {
+        background-color: $color-alt;
+
+        &:hover {
+            background-color: $color-alt-light;
+        }
+    }
+
+    &.action:not(.outline) {
+        background-color: $color-secondary;
+
+        &:hover {
+            background-color: $color-secondary-light;
+        }
+    }
+
+    &.outline {
+        padding: 14px 38px;
+
+        border: solid 2px $color-grey-level-8;
+
+        &:not(.default):not(.action):hover {
+            background-color: rgba($color-grey-level-5, 0.1);
+        }
+
+        &.default,
+        &.action {
+            font-weight: 700;
+        }
+
+        &.default {
+            color: $color-alt;
+
+            border-color: $color-alt;
+
+            &:hover {
+                color: $color-alt-light;
+
+                border-color: $color-alt-light;
+            }
+        }
+
+        &.action {
+            color: $color-secondary;
+
+            border-color: $color-secondary;
+
+            &:hover {
+                color: $color-secondary-light;
+
+                border-color: $color-secondary-light;
+            }
+        }
+
+        &.small {
+            padding: 6px 14px;
+        }
+    }
+
+    &.disabled {
+        padding: 14px 38px;
+
+        color: $color-grey-level-4;
+
+        background: none;
+
+        border: solid 2px $color-grey-level-4;
+        cursor: default;
+
+        &:hover {
+            background: none;
+        }
+    }
+}
+
+.btn-link {
+    display: inline-block;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+    &.blue {
+        color: $color-primary;
+
+        fill: $color-primary;
+    }
+
+    &.secondary {
+        color: $color-secondary;
+
+        fill: $color-secondary;
+    }
+
+    &.alt {
+        color: $color-alt;
+
+        fill: $color-alt;
+    }
+}

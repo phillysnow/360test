@@ -1,0 +1,37 @@
+{
+    "name": "nuxt-website",
+    "version": "1.0.0",
+    "description": "A multi page website with navigation menu built for Nuxt and Prismic",
+    "author": "Phil Snow",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "cross-env NODE_ENV=production node server/index.js",
+        "generate": "nuxt generate",
+        "eslint": "eslint . --ext .js,.vue; exit 0",
+        "stylelint": "stylelint **/*.vue; stylelint **/*.css; stylelint **/*.scss; exit 0"
+    },
+    "dependencies": {
+        "@nuxtjs/prismic": "^1.1.0",
+        "cookies": "^0.8.0",
+        "nuxt": "^2.11.0",
+        "prismic-javascript": "^2.1.5",
+        "prismic-vue": "^2.0.0",
+        "vue-click-outside": "^1.1.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/svg": "^0.1.11",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8.0",
+        "eslint-plugin-vue": "^6.2.2",
+        "node-sass": "^4.14.1",
+        "nodemon": "^2.0.2",
+        "sass-loader": "^8.0.2",
+        "stylelint": "^13.2.1",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-order": "^4.0.0",
+        "webpack": "^4.41.5"
+    }
+}

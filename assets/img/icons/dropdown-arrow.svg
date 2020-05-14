@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>flèche</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="flèche" fill-rule="nonzero">
+            <path d="M2.12355578,3.36607715 C1.62976238,2.86984153 0.838359659,2.8792988 0.355908333,3.38720056 C-0.126542992,3.89510232 -0.117348423,4.7091165 0.376444978,5.20535213 L6.77337748,11.6339229 C7.26726737,12.1302555 8.05885719,12.1206834 8.54126629,11.6125453 L14.644333,5.18397456 C15.1266479,4.67593568 15.1172346,3.86192414 14.6233079,3.36582889 C14.1293812,2.86973364 13.337981,2.87941585 12.8556662,3.38745473 L7.62614912,8.89588547 L2.12355578,3.36607715 Z" id="Path-3"></path>
+        </g>
+    </g>
+</svg>

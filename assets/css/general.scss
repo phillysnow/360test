@@ -1,0 +1,163 @@
+@import "variables";
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4, {
+    color: $color-grey-level-0;
+    font-family: "Eczar", "Open Sans", sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul li {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 12px;
+
+    &::before {
+        display: block;
+        flex-shrink: 0;
+        width: 6px;
+        height: 6px;
+        margin-right: 18px;
+
+        background-image: url("../img/icons/bullet-point-icon.svg");
+
+        content: "";
+    }
+}
+
+ol {
+    counter-reset: li;
+
+    li {
+        position: relative;
+
+        margin-bottom: 12px;
+
+        padding-left: 24px;
+
+        counter-increment: li;
+
+        &::before {
+            position: absolute;
+            left: 0;
+
+            height: 16px;
+
+            color: $color-azura;
+            font-weight: 600;
+            font-family: "Eczar", "Open Sans", sans-serif;
+
+            content: counter(li) ". ";
+        }
+    }
+}
+
+.page-title {
+    margin-bottom: 24px;
+
+    color: $color-grey-level-0;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 1.25;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 40px;
+    }
+
+    @media only screen and (max-width: 1023px) {
+        font-size: 32px;
+    }
+}
+
+p {
+    color: $color-grey-level-2;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+a {
+    color: $color-azura;
+}
+
+.page-subtitle {
+    margin-bottom: 40px;
+
+    color: $color-silver-grey;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.5;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 1023px) {
+        font-size: 16px;
+    }
+}
+
+.slice-title {
+    max-width: 700px;
+    margin-bottom: 24px;
+
+    color: $color-grey-level-0;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+
+    @media only screen and (max-width: 1023px) {
+        font-size: 28px;
+    }
+}
+
+.slice-subtitle {
+    max-width: 700px;
+
+    color: $color-lynch;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+
+.outlined-title {
+    max-width: 700px;
+
+    color: $color-azura;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: "Eczar", "Open Sans", sans-serif;
+    font-style: normal;
+    line-height: 80px;
+    -webkit-text-fill-color: $color-grey-level-8;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $color-lynch;
+}

@@ -1,0 +1,54 @@
+{
+    "Main" : {
+        "title_1" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Title (line 1)",
+                "placeholder" : "catchy title"
+            }
+        },
+        "title_2" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Title (line 2)",
+                "placeholder" : "(optional)"
+            }
+        },
+        "quote" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Quote",
+                "placeholder" : "one or two lines"
+            }
+        },
+        "vertical_label" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Vertical label",
+                "placeholder" : "one word"
+            }
+        },
+        "author_thumbnail" : {
+            "type" : "Image",
+            "config" : {
+                "constraint" : { },
+                "thumbnails" : [ ],
+                "label" : "author thumbnail"
+            }
+        },
+        "input_email_placeholder" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Input email placeholder",
+                "placeholder" : "email placeholder"
+            }
+        },
+        "button_label" : {
+            "type" : "Text",
+            "config" : {
+                "label" : "Button label",
+                "placeholder" : "button label"
+            }
+        }
+    }
+}
