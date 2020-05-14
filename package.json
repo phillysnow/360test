@@ -13,10 +13,10 @@
         "stylelint": "stylelint **/*.vue; stylelint **/*.css; stylelint **/*.scss; exit 0"
     },
     "dependencies": {
-        "@nuxtjs/prismic": "^1.1.0",
+        "@nuxtjs/prismic": "^1.2.1",
         "cookies": "^0.8.0",
-        "nuxt": "^2.11.0",
-        "prismic-javascript": "^2.1.5",
+        "nuxt": "^2.12.2",
+        "prismic-javascript": "^2.7.1",
         "prismic-vue": "^2.0.0",
         "vue-click-outside": "^1.1.0"
     },
